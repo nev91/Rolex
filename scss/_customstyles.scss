@@ -1,0 +1,130 @@
+
+/**MOBIEL ALGEMEEN*/
+.navbar{
+  background: #212121;
+}
+.logo{
+  width: 70px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+h1{
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+h2{
+  font-size: 22px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+h3{
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+p{
+  font-size: 16px;
+  color: black;
+}
+.navlijst ul li a{
+  color: white;
+}
+#video-home > div > div > div > video{
+  height: 120%;
+  width: unset;
+  transform: translateY(-20%);
+}
+.rolexfooter{
+  background: #212121;
+}
+.footerblok{
+  color: white;
+}
+.footerblok h6{
+  font-size: 14px;
+  color: #ad8b36;
+  border-bottom: 1px solid #005e30;
+}
+.footerblok ul{
+  padding: 0;
+}
+.footerblok ul li{
+  font-size: 12px;
+  list-style: none;
+}
+.footerblok ul li a{
+  color: white;
+  text-decoration: none;
+}
+.footerblok ul li a:hover{
+  color: #005e30;
+}
+.wittetekst{
+  color: white;
+}
+.horlogekaders{
+  position: relative;
+}
+.horlogekaders > h3 {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  z-index: 5;
+  position: center;
+  cursor: pointer;
+}
+.horlogekaders{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.horlogekaders:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+/**MOBIEL INDEX.HTML*/
+.prod-horlogekaders{
+
+}
+/**MOBIEL PRODUCTS.HTML*/
+.prod-horlogekaders{
+
+}
+
+
+
+
+@include media-breakpoint-up(sm) {  }
+@include media-breakpoint-up(md) {  }
+@include media-breakpoint-up(lg) {
+  .logo {
+    width: 100px;
+  }
+  h1{
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+  h2{
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .rolexh1 p{
+    width: 50%;
+  }
+}
+@include media-breakpoint-up(xl) {  }
