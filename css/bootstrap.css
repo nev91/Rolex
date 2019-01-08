@@ -7539,7 +7539,7 @@ p {
 .navlijst ul li a {
   color: white; }
 
-#video-home > div > div > div > video {
+.video > div > div > div > video {
   height: 120%;
   width: unset;
   -webkit-transform: translateY(-20%);
