@@ -7502,12 +7502,19 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /**MOBIEL ALGEMEEN*/
+/*-------------------------------------------NAVBAR-*/
 .navbar {
-  background: #212121; }
+  background: #212121;
+  border-bottom: 2px solid #ad8b36; }
 
 .logo {
   width: 70px; }
 
+.navlijst > ul > li > a:hover {
+  border-bottom: 2px solid #ad8b36;
+  padding-bottom: 6px; }
+
+/*-------------------------------------------STANDARD TEXT-*/
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Alegreya Sans SC', sans-serif; }
 
@@ -7526,8 +7533,8 @@ h2 {
   letter-spacing: 2px; }
 
 h3 {
-  font-size: 20px;
-  color: white;
+  font-size: 18px;
+  color: #ad8b36;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold; }
@@ -7536,16 +7543,80 @@ p {
   font-size: 16px;
   color: black; }
 
-.navlijst ul li a {
-  color: white; }
+cite {
+  font-size: 18px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
-.video > div > div > div > video {
-  height: 120%;
-  width: unset;
-  -webkit-transform: translateY(-20%);
-  -ms-transform: translateY(-20%);
-  transform: translateY(-20%); }
+.rowborderbottom {
+  border-bottom: 2px solid #ad8b36; }
 
+/*-------------------------------------------HOME-*/
+/*-------------------------------------------PRODUCTS-*/
+.productsh1 {
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px; }
+
+.productsh2 {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  z-index: 5; }
+
+.productskader {
+  position: relative;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out; }
+
+.productskader:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05); }
+
+/*-------------------------------------------HORLOGE-*/
+.horlogeh1 {
+  font-size: 40px;
+  color: #ad8b36;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold; }
+
+.horlogeh2 {
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 20px; }
+
+.horlogep {
+  font-size: 16px;
+  color: black;
+  margin: 0; }
+
+.horlogeintro {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.horlogevideo {
+  width: 100%;
+  height: unset; }
+
+.embed-responsive video.videosmall {
+  height: unset; }
+
+/*-------------------------------------------FOOTER-*/
 .rolexfooter {
   background: #212121; }
 
@@ -7571,35 +7642,9 @@ p {
 .footerblok ul li a:hover {
   color: #005e30; }
 
-.wittetekst {
-  color: white; }
+.footerlogo {
+  width: 18px; }
 
-.horlogekaders {
-  position: relative; }
-
-.horlogekaders > h3 {
-  position: absolute;
-  top: 15%;
-  width: 100%;
-  z-index: 5;
-  position: center;
-  cursor: pointer; }
-
-.horlogekaders {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out; }
-
-.horlogekaders:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05); }
-
-/**MOBIEL INDEX.HTML*/
-/**MOBIEL PRODUCTS.HTML*/
 @media (min-width: 992px) {
   .logo {
     width: 100px; }
