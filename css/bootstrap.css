@@ -5475,7 +5475,6 @@ button.bg-dark:focus {
 
 .align-self-auto {
   -ms-flex-item-align: auto !important;
-  -ms-grid-row-align: auto !important;
   align-self: auto !important; }
 
 .align-self-start {
@@ -5488,7 +5487,6 @@ button.bg-dark:focus {
 
 .align-self-center {
   -ms-flex-item-align: center !important;
-  -ms-grid-row-align: center !important;
   align-self: center !important; }
 
 .align-self-baseline {
@@ -5497,7 +5495,6 @@ button.bg-dark:focus {
 
 .align-self-stretch {
   -ms-flex-item-align: stretch !important;
-  -ms-grid-row-align: stretch !important;
   align-self: stretch !important; }
 
 @media (min-width: 576px) {
@@ -5607,7 +5604,6 @@ button.bg-dark:focus {
     align-content: stretch !important; }
   .align-self-sm-auto {
     -ms-flex-item-align: auto !important;
-    -ms-grid-row-align: auto !important;
     align-self: auto !important; }
   .align-self-sm-start {
     -ms-flex-item-align: start !important;
@@ -5617,14 +5613,12 @@ button.bg-dark:focus {
     align-self: flex-end !important; }
   .align-self-sm-center {
     -ms-flex-item-align: center !important;
-    -ms-grid-row-align: center !important;
     align-self: center !important; }
   .align-self-sm-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important; }
   .align-self-sm-stretch {
     -ms-flex-item-align: stretch !important;
-    -ms-grid-row-align: stretch !important;
     align-self: stretch !important; } }
 
 @media (min-width: 768px) {
@@ -5734,7 +5728,6 @@ button.bg-dark:focus {
     align-content: stretch !important; }
   .align-self-md-auto {
     -ms-flex-item-align: auto !important;
-    -ms-grid-row-align: auto !important;
     align-self: auto !important; }
   .align-self-md-start {
     -ms-flex-item-align: start !important;
@@ -5744,14 +5737,12 @@ button.bg-dark:focus {
     align-self: flex-end !important; }
   .align-self-md-center {
     -ms-flex-item-align: center !important;
-    -ms-grid-row-align: center !important;
     align-self: center !important; }
   .align-self-md-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important; }
   .align-self-md-stretch {
     -ms-flex-item-align: stretch !important;
-    -ms-grid-row-align: stretch !important;
     align-self: stretch !important; } }
 
 @media (min-width: 992px) {
@@ -5861,7 +5852,6 @@ button.bg-dark:focus {
     align-content: stretch !important; }
   .align-self-lg-auto {
     -ms-flex-item-align: auto !important;
-    -ms-grid-row-align: auto !important;
     align-self: auto !important; }
   .align-self-lg-start {
     -ms-flex-item-align: start !important;
@@ -5871,14 +5861,12 @@ button.bg-dark:focus {
     align-self: flex-end !important; }
   .align-self-lg-center {
     -ms-flex-item-align: center !important;
-    -ms-grid-row-align: center !important;
     align-self: center !important; }
   .align-self-lg-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important; }
   .align-self-lg-stretch {
     -ms-flex-item-align: stretch !important;
-    -ms-grid-row-align: stretch !important;
     align-self: stretch !important; } }
 
 @media (min-width: 1200px) {
@@ -5988,7 +5976,6 @@ button.bg-dark:focus {
     align-content: stretch !important; }
   .align-self-xl-auto {
     -ms-flex-item-align: auto !important;
-    -ms-grid-row-align: auto !important;
     align-self: auto !important; }
   .align-self-xl-start {
     -ms-flex-item-align: start !important;
@@ -5998,14 +5985,12 @@ button.bg-dark:focus {
     align-self: flex-end !important; }
   .align-self-xl-center {
     -ms-flex-item-align: center !important;
-    -ms-grid-row-align: center !important;
     align-self: center !important; }
   .align-self-xl-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important; }
   .align-self-xl-stretch {
     -ms-flex-item-align: stretch !important;
-    -ms-grid-row-align: stretch !important;
     align-self: stretch !important; } }
 
 .float-left {
@@ -7615,6 +7600,9 @@ cite {
 
 .embed-responsive video.videosmall {
   height: unset; }
+
+.horlogecarouselimage {
+  height: 400px; }
 
 /*-------------------------------------------FOOTER-*/
 .rolexfooter {
