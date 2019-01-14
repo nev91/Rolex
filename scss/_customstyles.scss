@@ -16,14 +16,14 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 h1{
-  font-size: 30px;
+  font-size: 40px;
   color: black;
   text-transform: uppercase;
   font-weight: 100;
   letter-spacing: 3px;
 }
 h2{
-  font-size: 22px;
+  font-size: 30px;
   color: black;
   text-transform: uppercase;
   font-weight: 100;
@@ -37,7 +37,7 @@ h3{
   font-weight: bold;
 }
 p{
-  font-size: 16px;
+  font-size: 14px;
   color: black;
 }
 cite{
@@ -48,7 +48,16 @@ cite{
   border-bottom: 2px solid #ad8b36;
 }
 /*-------------------------------------------HOME-*/
-
+h2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 37px;
+  margin-bottom: 2px;
+  z-index: 999;
+}
 /*-------------------------------------------PRODUCTS-*/
 .productsh1{
   font-size: 30px;
@@ -77,6 +86,9 @@ cite{
   transform: scale(1.05);
 }
 /*-------------------------------------------HORLOGE-*/
+.backgrounddark{
+  background: #212121;
+}
 .horlogeh1{
   font-size: 40px;
   color: #ad8b36;
@@ -104,11 +116,8 @@ cite{
   width: 100%;
   height: unset;
 }
-.embed-responsive video.videosmall{
+.embed-responsive video.videosmall {
   height: unset;
-}
-.horlogecarouselimage{
-  height: 400px;
 }
 /*-------------------------------------------FOOTER-*/
 .rolexfooter{
@@ -126,7 +135,7 @@ cite{
   padding: 0;
 }
 .footerblok ul li{
-  font-size: 12px;
+  font-size: 14px;
   list-style: none;
 }
 .footerblok ul li a{
@@ -142,25 +151,44 @@ cite{
 @include media-breakpoint-up(sm) {  }
 @include media-breakpoint-up(md) {  }
 @include media-breakpoint-up(lg) {
-  .logo {
-    width: 100px;
-  }
-  h1{
-    font-size: 40px;
-    color: black;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 3px;
-  }
+  /*-------------------------------------------HOME-*/
   h2{
-    font-size: 30px;
+    position: relative;
+    transform: translate(0%,0%);
+    margin-bottom: 8px;
+    text-align: center;
     color: black;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 2px;
+    top: 0;
+    left: 0;
   }
-  .rolexh1 p{
-    width: 50%;
+  /*-------------------------------------------FOOTER-*/
+  .rolexfooter{
+    background: #212121;
+  }
+  .footerblok{
+    color: white;
+  }
+  .footerblok h6{
+    font-size: 14px;
+    color: #ad8b36;
+    border-bottom: 1px solid #005e30;
+  }
+  .footerblok ul{
+    padding: 0;
+  }
+  .footerblok ul li{
+    font-size: 14px;
+    list-style: none;
+  }
+  .footerblok ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .footerblok ul li a:hover{
+    color: #005e30;
+  }
+  .footerlogo{
+    width: 18px;
   }
 }
 @include media-breakpoint-up(xl) {  }
