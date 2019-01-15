@@ -41,14 +41,14 @@ p{
   color: black;
 }
 cite{
-  font-size: 18px;
+  font-size: 15px;
   align-items: center;
 }
 .rowborderbottom{
   border-bottom: 2px solid #ad8b36;
 }
 /*-------------------------------------------HOME-*/
-h2{
+homeh2{
   position: absolute;
   left: 50%;
   top: 50%;
@@ -65,6 +65,7 @@ h2{
   text-transform: uppercase;
   font-weight: 100;
   letter-spacing: 2px;
+  margin-bottom: 0;
 }
 .productsh2{
   position: absolute;
@@ -90,24 +91,26 @@ h2{
   background: #212121;
 }
 .horlogeh1{
-  font-size: 40px;
+  font-size: 30px;
   color: #ad8b36;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
 }
 .horlogeh2{
-  font-size: 30px;
-  color: black;
+  font-size: 14px;
+  color: white;
   text-transform: uppercase;
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .horlogep{
-  font-size: 16px;
-  color: black;
+  font-size: 12px;
+  color: white;
   margin: 0;
+  text-align: center;
 }
 .horlogeintro{
   align-items: center;
@@ -118,6 +121,25 @@ h2{
 }
 .embed-responsive video.videosmall {
   height: unset;
+}
+.horloges5 div{
+  margin-bottom: 20px;
+}
+.horloges5 h3{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ad8b36;
+  font-weight: 100;
+}
+.horloges5 p{
+  font-size: 16px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.horloges5 span{
+  font-size: 14px;
+  color: grey;
 }
 /*-------------------------------------------FOOTER-*/
 .rolexfooter{
@@ -148,8 +170,30 @@ h2{
 .footerlogo{
   width: 18px;
 }
-@include media-breakpoint-up(sm) {  }
-@include media-breakpoint-up(md) {  }
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------SMALL-*/
+@include media-breakpoint-up(sm) {
+
+}
+/*--------------------------------------------------------------------------------------------------------MEDIUM-*/
+@include media-breakpoint-up(md) {
+  .horlogeh2{
+    font-size: 18px;
+  }
+  .horlogep{
+    font-size: 14px;
+  }
+}
+/*--------------------------------------------------------------------------------------------------------LARGE-*/
 @include media-breakpoint-up(lg) {
   /*-------------------------------------------HOME-*/
   h2{
@@ -160,6 +204,15 @@ h2{
     color: black;
     top: 0;
     left: 0;
+  }
+  /*-------------------------------------------HORLOGE-*/
+  .horlogeh2{
+    font-size: 30px;
+    width: 75%;
+  }
+  .horlogep{
+    font-size: 16px;
+    width: 75%;
   }
   /*-------------------------------------------FOOTER-*/
   .rolexfooter{
