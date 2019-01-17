@@ -7553,7 +7553,7 @@ cite {
   border-bottom: 2px solid #ad8b36; }
 
 /*-------------------------------------------HOME-*/
-homeh2 {
+.homeh2 {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -7567,11 +7567,11 @@ homeh2 {
 
 /*-------------------------------------------PRODUCTS-*/
 .productsh1 {
-  font-size: 30px;
-  color: black;
+  font-size: 20px;
+  color: #005e30;
   text-transform: uppercase;
-  font-weight: 100;
-  letter-spacing: 2px;
+  font-weight: bold;
+  letter-spacing: 5px;
   margin-bottom: 0; }
 
 .productsh2 {
@@ -7581,6 +7581,14 @@ homeh2 {
   font-size: 30px;
   color: white;
   z-index: 5; }
+
+.productsh3 {
+  font-size: 30px;
+  color: #ad8b36;
+  margin-bottom: 0; }
+
+.productsp {
+  font-size: 12px; }
 
 .productskader {
   position: relative;
@@ -7600,28 +7608,6 @@ homeh2 {
 .backgrounddark {
   background: #212121; }
 
-.horlogeh1 {
-  font-size: 30px;
-  color: #ad8b36;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: bold; }
-
-.horlogeh2 {
-  font-size: 14px;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  text-align: center; }
-
-.horlogep {
-  font-size: 12px;
-  color: white;
-  margin: 0;
-  text-align: center; }
-
 .horlogeintro {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -7634,24 +7620,62 @@ homeh2 {
 .embed-responsive video.videosmall {
   height: unset; }
 
-.horloges5 div {
-  margin-bottom: 20px; }
-
-.horloges5 h3 {
+.horlogeh1 {
   font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #ad8b36;
-  font-weight: 100; }
+  color: #ad8b36;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold; }
 
-.horloges5 p {
+.horlogeh2 {
   font-size: 16px;
-  margin-bottom: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.horlogeh3 {
+  font-size: 20px;
+  color: #ad8b36; }
+
+.horlogeh4 {
+  font-size: 30px;
+  color: #005e30;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.horlogeh5 {
+  font-size: 25px;
+  color: #ad8b36;
+  font-weight: bold;
   text-transform: uppercase; }
 
-.horloges5 span {
+.horlogep {
+  font-size: 13px;
+  color: white;
+  margin: 0;
+  text-align: center; }
+
+.horlogep2 {
+  font-size: 13px;
+  color: black; }
+
+.horloges5 p {
   font-size: 14px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.horloges5 span {
+  font-size: 12px;
   color: grey; }
+
+.horloges5 div {
+  margin-bottom: 10px; }
 
 /*-------------------------------------------FOOTER-*/
 .rolexfooter {
@@ -7685,8 +7709,22 @@ homeh2 {
 /*--------------------------------------------------------------------------------------------------------SMALL-*/
 /*--------------------------------------------------------------------------------------------------------MEDIUM-*/
 @media (min-width: 768px) {
+  /*-------------------------------------------PRODUCTS-*/
+  .productsh1 {
+    font-size: 30px; }
+  .productsh3 {
+    font-size: 30px;
+    color: #ad8b36; }
+  .productsp {
+    font-size: 15px; }
+  .horlogep2 {
+    font-size: 14px; }
+  /*-------------------------------------------HORLOGE-*/
   .horlogeh2 {
     font-size: 18px; }
+  .horlogeh3 {
+    font-size: 25px;
+    color: #ad8b36; }
   .horlogep {
     font-size: 14px; } }
 
@@ -7703,15 +7741,33 @@ homeh2 {
     color: black;
     top: 0;
     left: 0; }
+  /*-------------------------------------------PRODUCTS-*/
+  .productsh1 {
+    font-size: 40px; }
+  .productsh2 {
+    font-size: 38px; }
+  .productsp {
+    font-size: 16px; }
   /*-------------------------------------------HORLOGE-*/
   .horlogeh1 {
     font-size: 40px; }
   .horlogeh2 {
     font-size: 30px;
     width: 75%; }
+  .horlogeh3 {
+    font-size: 30px;
+    margin-bottom: 15px; }
   .horlogep {
     font-size: 16px;
     width: 75%; }
+  .horlogep2 {
+    font-size: 16px; }
+  .horloges5 p {
+    font-size: 16px; }
+  .horloges5 span {
+    font-size: 14px; }
+  cite {
+    font-size: 18px; }
   /*-------------------------------------------FOOTER-*/
   .rolexfooter {
     background: #212121; }
