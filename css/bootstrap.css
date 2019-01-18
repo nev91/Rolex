@@ -7557,15 +7557,31 @@ cite {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -80%);
+  -ms-transform: translate(-50%, -80%);
+  transform: translate(-50%, -80%);
   color: white;
   font-size: 37px;
   margin-bottom: 2px;
   z-index: 999; }
 
+.homecite {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  color: white;
+  font-size: 12px;
+  margin-bottom: 2px;
+  z-index: 999;
+  width: 100%; }
+
 /*-------------------------------------------PRODUCTS-*/
+.productbackground {
+  background: rgba(173, 139, 54, 0.2); }
+
 .productsh1 {
   font-size: 20px;
   color: #005e30;
@@ -7619,6 +7635,12 @@ cite {
 
 .embed-responsive video.videosmall {
   height: unset; }
+
+.embed-responsive video.videobig {
+  height: unset;
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%); }
 
 .horlogeh1 {
   font-size: 30px;
@@ -7677,6 +7699,15 @@ cite {
 .horloges5 div {
   margin-bottom: 10px; }
 
+/*-------------------------------------------CONTACT-*/
+.contacth1 {
+  font-size: 20px;
+  color: #005e30;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-bottom: 0; }
+
 /*-------------------------------------------FOOTER-*/
 .rolexfooter {
   background: #212121; }
@@ -7709,6 +7740,30 @@ cite {
 /*--------------------------------------------------------------------------------------------------------SMALL-*/
 /*--------------------------------------------------------------------------------------------------------MEDIUM-*/
 @media (min-width: 768px) {
+  /*-------------------------------------------HOME-*/
+  .homeh2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -70%);
+    -ms-transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%);
+    color: white;
+    font-size: 50px;
+    margin-bottom: 2px;
+    z-index: 999; }
+  .homecite {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, 60%);
+    -ms-transform: translate(-50%, 60%);
+    transform: translate(-50%, 60%);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2px;
+    z-index: 999;
+    width: 100%; }
   /*-------------------------------------------PRODUCTS-*/
   .productsh1 {
     font-size: 30px; }
@@ -7726,7 +7781,10 @@ cite {
     font-size: 25px;
     color: #ad8b36; }
   .horlogep {
-    font-size: 14px; } }
+    font-size: 14px; }
+  /*-------------------------------------------CONTACT-*/
+  .contacth1 {
+    font-size: 30px; } }
 
 /*--------------------------------------------------------------------------------------------------------LARGE-*/
 @media (min-width: 992px) {
@@ -7768,6 +7826,9 @@ cite {
     font-size: 14px; }
   cite {
     font-size: 18px; }
+  /*-------------------------------------------CONTACT-*/
+  .contacth1 {
+    font-size: 40px; }
   /*-------------------------------------------FOOTER-*/
   .rolexfooter {
     background: #212121; }
