@@ -7708,6 +7708,14 @@ cite {
   letter-spacing: 5px;
   margin-bottom: 0; }
 
+.contactbackground {
+  background: #ad8b36;
+  color: white; }
+
+.contactbutton {
+  background: #005e30; }
+
+/*-------------------------------------------SHOPPING-CART-*/
 /*-------------------------------------------FOOTER-*/
 .rolexfooter {
   background: #212121; }
