@@ -4,6 +4,9 @@
   background: #212121;
   border-bottom: 2px solid #ad8b36;
 }
+.custom-toggler{
+  color: white;
+}
 .logo{
   width: 70px;
 }
@@ -200,7 +203,20 @@ cite{
   background: #005e30;
 }
 /*-------------------------------------------SHOPPING-CART-*/
-
+.shopping-carth2{
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.shopping-carth2price{
+  font-size: 16px;
+  margin-top: 45px;
+  font-weight: bold;
+}
+.cart-removeicon{
+  margin-top: 9px;
+}
 /*-------------------------------------------FOOTER-*/
 .rolexfooter{
   background: #212121;
