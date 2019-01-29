@@ -62,4 +62,8 @@ $(document).ready(function () {
             a = 1;
         }
     });
+    $('.like-btn').on('click', function() {
+        $(this).toggleClass('is-active');
+    });
+
 });
