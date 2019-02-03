@@ -33,7 +33,7 @@
                             <a class="nav-link text-uppercase text-white px-0 mx-2" href="products-professional.html">Professioneel</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase text-white px-0 mx-2" href="shop.html">Shop</a>
+                            <a class="nav-link text-uppercase text-white px-0 mx-2" href="products-professional.html">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-uppercase text-white px-0 mx-2" href="contact.html">Contact</a>
@@ -49,130 +49,92 @@
             </nav>
         </div>
     </section>
-    <section class="text-center">
-        <div class="container py-lg-3">
-            <h1 class="contacth1 my-3">Shopping-cart</h1>
+    <section>
+        <div class="container py-lg-3 text-center">
+            <h1 class="contacth1 my-3">Check-out</h1>
         </div>
-        <div class="container">
-            <div class="row mb-2 mb-lg-5">
-                <div class="col-md-7">
-                    <div class="cart">
-                        <div class="cart-wrapper">
-                            <div class="cart-body">
-                                <div class="row d-flex align-items-center justify-content-between">
-                                    <!--Afbeelding + Titel-->
-                                    <div class="col-8 col-md-6 offset-md-1 d-flex flex-row p-0">
-                                        <a href="air-king.html"><img src="assets/images/allehorloges/air-king%20full.jpg" class="img-fluid cart-item-img"></a>
-                                        <div class="cart-title ml-2 d-flex align-items-center flex-column">
-                                            <a href="detail.html" class="text-uppercase text-dark"><strong>Air-King</strong></a><br>
-                                            <p>€5.800,00</p>
-                                        </div>
+        <div class="row mb-4">
+            <div class="col-12 col-lg-6 offset-lg-3">
+                <article class="card">
+                    <div class="card-body p-md-5">
+                        <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
+                            <li class="nav-item check-outpills">
+                                <a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
+                                    <i class="fa fa-credit-card"></i> Kredietkaart</a></li>
+                            <li class="nav-item check-outpills">
+                                <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
+                                    <i class="fab fa-paypal"></i> Paypal</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="nav-tab-card">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="mb-1">Volledige naam op kaart</label>
+                                        <input type="text" class="form-control" name="username" placeholder="" required="">
                                     </div>
-                                    <!--Aantal-->
-                                    <div class="col-2 p-0 mb-3">
-                                        <div class="d-flex align-items-center">
-                                            <div class="btn btn-items btn-items-decrease input-items">-</div>
-                                            <input type="text" value="1" class="form-control form-control-sm text-center input-box">
-                                            <div class="btn btn-items btn-items-increase input-items">+</div>
-                                        </div>
-                                    </div>
-                                    <!--Verwijderen-->
-                                    <div class="col-2 p-0 mb-3 cart-remove text-right"><a href="#"><i class="fa fa-times"></i></a></div>
-                                </div>
-                                <hr class="m-0 mb-3">
-                                <div class="cart-item">
-                                    <div class="row d-flex align-items-center justify-content-between">
-                                        <!--Afbeelding + Titel + Prijs-->
-                                        <div class="col-8 col-md-6 offset-md-1 d-flex flex-row p-0">
-                                            <a href="air-king.html"><img src="assets/images/allehorloges/air-king%20full.jpg" class="img-fluid cart-item-img"></a>
-                                            <div class="cart-title ml-2 d-flex align-items-center flex-column">
-                                                <a href="detail.html" class="text-uppercase text-dark"><strong>Air-King</strong></a><br>
-                                                <p>€5.800,00</p>
+
+                                    <div class="form-group">
+                                        <label class="mb-1">Kaartnummer</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" name="cardNumber" placeholder="">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text text-muted">
+                                                    <i class="fab fa-cc-visa"></i>  
+                                                    <i class="fab fa-cc-amex"></i>  
+                                                    <i class="fab fa-cc-mastercard"></i>
+                                                </span>
                                             </div>
                                         </div>
-                                        <!--Aantal-->
-                                        <div class="col-2 p-0 mb-3">
-                                            <div class="d-flex align-items-center">
-                                                <div class="btn btn-items btn-items-decrease input-items">-</div>
-                                                <input type="text" value="1" class="form-control form-control-sm text-center input-box">
-                                                <div class="btn btn-items btn-items-increase input-items">+</div>
-                                            </div>
-                                        </div>
-                                        <!--Verwijderen-->
-                                        <div class="col-2 p-0 mb-3 cart-remove text-right"><a href="#"><i class="fa fa-times"></i></a></div>
                                     </div>
-                                    <hr class="m-0 mb-3">
-                                    <div class="cart-body">
-                                        <div class="cart-item">
-                                            <div class="row d-flex align-items-center justify-content-between">
-                                                <!--Afbeelding + Titel-->
-                                                <div class="col-8 col-md-6 offset-md-1 d-flex flex-row p-0">
-                                                    <a href="air-king.html"><img src="assets/images/allehorloges/air-king%20full.jpg" class="img-fluid cart-item-img"></a>
-                                                    <div class="cart-title ml-2 d-flex align-items-center flex-column">
-                                                        <a href="detail.html" class="text-uppercase text-dark"><strong>Air-King</strong></a><br>
-                                                        <p>€5.800,00</p>
-                                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <div class="form-group">
+                                                <label class="mb-1"><span class="hidden-xs ">Vervaldatum</span> </label>
+                                                <div class="input-group mb-3">
+                                                    <select class="custom-select">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                    </select>
+                                                    <select class="custom-select">
+                                                        <option value="1">2019</option>
+                                                        <option value="2">2020</option>
+                                                        <option value="3">2021</option>
+                                                        <option value="4">2022</option>
+                                                        <option value="5">2023</option>
+                                                        <option value="6">2024</option>
+                                                        <option value="7">2025</option>
+                                                    </select>
                                                 </div>
-                                                <!--Aantal-->
-                                                <div class="col-2 p-0 mb-3">
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="btn btn-items btn-items-decrease input-items">-</div>
-                                                        <input type="text" value="1" class="form-control form-control-sm text-center input-box">
-                                                        <div class="btn btn-items btn-items-increase input-items">+</div>
-                                                    </div>
-                                                </div>
-                                                <!--Verwijderen-->
-                                                <div class="col-2 p-0 mb-3 cart-remove text-right"><a href="#"><i class="fa fa-times"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="form-group">
+                                                <label class="mb-1" data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+                                                <input type="number" class="form-control" required="">
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    <button class="btn btn-check-out btn-block" type="button">Confirm</button>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade text-center mt-3" id="nav-tab-paypal">
+                                <p>
+                                    <a href="https://www.paypal.com/be/signin"><button type="button" class="btn btn-check-out btn-block"> <i class="fab fa-paypal"></i> Paypal-login </button></a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 ml-5 p-0 p-0">
-                    <div class="row bg-light text-right">
-                        <div class="col-7 py-md-2 px-0 shoppingcartprice pricetitle">
-                            <p class="text-uppercase">Subtotaal</p>
-                        </div>
-                        <div class="col-4 py-md-2 px-0 shoppingcartprice">
-                            <p class="text-uppercase">€10.000,00</p>
-                        </div>
-                    </div>
-                    <div class="row bg-light text-right">
-                        <div class="col-7 py-md-2 px-0 shoppingcartprice pricetitle">
-                            <p class="text-uppercase">Verzendingskosten</p>
-                        </div>
-                        <div class="col-4 py-md-2 px-0 shoppingcartprice">
-                            <p class="text-uppercase">€0,00</p>
-                        </div>
-                    </div>
-                    <div class="row bg-light text-right">
-                        <div class="col-7 py-md-2 px-0 shoppingcartprice pricetitle">
-                            <p class="text-uppercase">BTW</p>
-                        </div>
-                        <div class="col-4 py-md-2 px-0 shoppingcartprice">
-                            <p class="text-uppercase">€2.100,00</p>
-                        </div>
-                    </div>
-                    <div class="row bg-light text-right">
-                        <div class="col-7 py-md-2 px-0 shoppingcartprice pricetitle">
-                            <p class="text-uppercase">Totaal</p>
-                        </div>
-                        <div class="col-4 py-md-2 px-0 shoppingcartprice">
-                            <p class="text-uppercase">€12.100,00</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-flex my-3 justify-content-between align-items-center">
-                <div class="col-6 shoppingcartbuttons pl-0">
-                    <a href="shop.html" class="btn btn-link text-muted"><i class="fa fa-chevron-left"></i> Continue Shopping</a>
-                </div>
-                <div class="col-6 shoppingcartbuttons">
-                    <a href="check-out.html" class="btn btn-shopping-cart btn-block p-1">Checkout <i class="fa fa-chevron-right"></i></a>
-                </div>
+                </article>
             </div>
         </div>
     </section>

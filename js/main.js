@@ -65,5 +65,11 @@ $(document).ready(function () {
     $('.like-btn').on('click', function() {
         $(this).toggleClass('is-active');
     });
+    $('.cart-btn').on('click', function() {
+        $(this).toggleClass('cart-active');
+    });
 
-});
+    $("#cart").on("click", function() {
+        $(".shopping-cart").fadeToggle( "fast");
+    });
+})

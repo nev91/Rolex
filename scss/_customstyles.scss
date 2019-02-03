@@ -205,10 +205,20 @@ cite{
   animation-timing-function: steps(28);
   animation-fill-mode: forwards;
 }
+.cart-btn{
+  position: absolute;
+  top: 9%;
+  right: 2%;
+  color: #aab8c2;
+  cursor: pointer;
+}
 @keyframes animate {
   0%   { background-position: left;  }
   50%  { background-position: right; }
   100% { background-position: right; }
+}
+.cart-active{
+  color: #005e30;
 }
 /*-------------------------------------------CONTACT-*/
 .contacth1{
@@ -227,19 +237,101 @@ cite{
   background: #005e30;
 }
 /*-------------------------------------------SHOPPING-CART-*/
-.shopping-carth2{
+.cart-title{
+  font-size: 12px;
+}
+.cart-title p{
   font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: bold;
-  margin-top: 8px;
 }
-.shopping-carth2price{
+.cart-item-img{
+  width: 40px;
+}
+.shoppingprice{
+  font-size: 12px;
+}
+.input-items{
+  padding: 10px;
+}
+.input-box{
+  width: 25px;
+  height: 25px;
+  padding: 0;
+}
+.cart-remove a i{
+  color: red;
+}
+.btn-shopping-cart{
+  background: #ad8b36;
+  color: white;
+  margin-bottom: 15px;
+}
+.shoppingcartprice{
+  border-bottom: 1px solid white;
+  padding: 0;
+}
+.shoppingcartprice p{
+  margin: 0;
+}
+.shoppingcartbuttons a{
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.pricetitle{
+  font-weight: bold;
+}
+/*-------------------------------------------SHOP-*/
+.shopp{
+  margin-bottom: 0;
+}
+.sidebar-block > a {
   font-size: 16px;
-  margin-top: 45px;
-  font-weight: bold;
+  color: #005e30;
 }
-.cart-removeicon{
-  margin-top: 9px;
+.sidebar-heading {
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  color: #868e96;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.sidebar-block {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.btn-colour {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 0;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 5px #fff, 0 0 0 1px #ced4da;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  transition: border-color .1s;
+}
+.colours-wrapper {
+  position: relative;
+}
+.input-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+/*-------------------------------------------CHECK-OUT-*/
+.check-outpills:nth-child(1) > a.active, .check-outpills:nth-child(2) > a.active{
+  background-color: #005e30;
+}
+.check-outpills:nth-child(1) > a, .check-outpills:nth-child(2) > a{
+  color: #005e30;
+}
+.btn-check-out{
+  background: #ad8b36;
+  color: white;
+  margin-top: 20px;
 }
 /*-------------------------------------------FOOTER-*/
 .rolexfooter{
@@ -323,10 +415,38 @@ cite{
   .horlogep {
     font-size: 14px;
   }
-  /*-------------------------------------------SHOPPING-CART-*/
   .like-btn {
-    top: -5%;
-    left: -2%;
+    top: -8%;
+    left: -4%;
+  }
+  .cart-btn{
+    top: 3%;
+  }
+  /*-------------------------------------------SHOPPING-CART-*/
+  .cart-title{
+    font-size: 16px;
+  }
+  .cart-title p{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .cart-item-img{
+    width: 100px;
+  }
+  .shoppingprice{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .shoppingcartprice p{
+    font-size: 14px;
+  }
+  .shoppingcartbuttons a{
+    font-size: 16px;
+  }
+  /*-------------------------------------------SHOP-*/
+  .expand-md {
+    display: block !important;
   }
   /*-------------------------------------------CONTACT-*/
   .contacth1 {
@@ -383,53 +503,34 @@ cite{
   cite{
     font-size: 18px;
   }
-  /*-------------------------------------------SHOP-*/
-  .sidebar-heading {
-    margin-bottom: 1.2rem;
-    font-weight: 400;
-    color: #868e96;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+  .like-btn {
+    top: 0;
+    left: 0;
   }
-  .sidebar-block {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #e9ecef;
-  }
-  .btn-colour {
-    position: relative;
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    margin-bottom: 0;
-    border-radius: 50%;
-    box-shadow: inset 0 0 0 5px #fff, 0 0 0 1px #ced4da;
-    background-position: center;
-    background-size: cover;
-    cursor: pointer;
-    transition: border-color .1s;
-  }
-  .colours-wrapper {
-    position: relative;
-  }
-  .input-invisible {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    opacity: 0;
-  }
-  .expand-lg {
-    display: block !important;
-  }
-  .sidebar-a{
-    font-size: 14px;
-    color: #005e30;
+  .cart-btn{
+    top: 5%;
   }
   /*-------------------------------------------SHOPPING-CART-*/
-  .like-btn {
-    position: absolute;
-    top: 0%;
-    left: 0%;
+  .cart-title{
+    font-size: 16px;
+  }
+  .cart-title p{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .cart-item-img{
+    width: 100px;
+  }
+  .shoppingprice{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .shoppingcartprice p{
+    font-size: 14px;
+  }
+  .shoppingcartbuttons a{
+    font-size: 16px;
   }
   /*-------------------------------------------CONTACT-*/
   .contacth1{
