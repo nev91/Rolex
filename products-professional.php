@@ -17,77 +17,119 @@
 	<section id="navigatie" class="row">
 		<div class="col-12 d-fixed-top p-0">
 			<nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
-				<a class="navbar-brand text-center m-0" href="index.html"><img class="logo img-fluid" src="assets/images/rolex_logomettekst.png" alt="Rolex logo"></a>
+				<a class="navbar-brand text-center m-0" href="index.php"><img class="logo img-fluid" src="assets/images/rolex_logomettekst.png" alt="Rolex logo"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarid" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon custom-toggler"></span>
 				</button>
 				<div class="collapse navbar-collapse navlijst" id="navbarid">
 					<ul class="navbar-nav ml-auto text-center text-lg-left">
 						<li class="nav-item active">
-							<a class="nav-link text-uppercase text-white px-0 mx-2" href="index.html">Home</a>
+							<a class="nav-link text-uppercase text-white px-0 mx-2" href="index.php">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-uppercase text-white px-0 mx-2" href="products-classic.html">Klassiek</a>
+							<a class="nav-link text-uppercase text-white px-0 mx-2" href="products-classic.php">Klassiek</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-uppercase text-white px-0 mx-2" href="products-professional.html">Professioneel</a>
+							<a class="nav-link text-uppercase text-white px-0 mx-2" href="products-professional.php">Professioneel</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-uppercase text-white px-0 mx-2" href="shop.html">Shop</a>
+							<a class="nav-link text-uppercase text-white px-0 mx-2" href="shop.php">Shop</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-uppercase text-white px-0 mx-2" href="contact.html">Contact</a>
+							<a class="nav-link text-uppercase text-white px-0 mx-2" href="contact.php">Contact</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-uppercase text-white px-0 mx-2" href="air-king.html"><i class="fas fa-heart"></i>  </a>
+							<a class="nav-link text-uppercase text-white px-0 mx-2" href="air-king.php"><i class="fas fa-heart"></i>  </a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-uppercase text-white px-0 mx-2" href="shopping-cart.html"><i class="fas fa-shopping-cart"></i></a>
+							<a class="nav-link text-uppercase text-white px-0 mx-2" href="shopping-cart.php"><i class="fas fa-shopping-cart"></i></a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 		</div>
 	</section>
-	<section class="contacts1 text-center">
-		<div class="container py-lg-3">
-			<h1 class="contacth1 my-3">Contact</h1>
+</div>
+<div class="container-fluid p-0">
+	<div class="col-12 p-0">
+		<div align="center" class="embed-responsive embed-responsive-21by9 video">
+			<video autoplay loop class="videobig embed-responsive-item video_prof_watches" width="110%" src="assets/videos/professional-watches.mp4">
+			</video>
 		</div>
-		<div class="container">
-			<div class="row pb-md-4 pb-lg-5">
-				<div class="col">
-					<div class="card">
-						<div class="card-header contactbackground text-uppercase"><i class="fa fa-envelope"></i> Bericht</div>
-						<div class="card-body">
-							<form>
-								<div class="form-group">
-									<label for="name">Naam</label>
-									<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Vul hier uw naam in" required>
+	</div>
+</div>
+<div class="container-fluid">
+	<section class="horloge">
+		<div class="row">
+			<div class="col-12 col-lg-10 offset-lg-1">
+				<div class="row text-center py-lg-3">
+					<div class="col-12">
+						<h1 class="productsh1 my-3">Professionele horloges</h1>
+						<p class="productsp mx-auto">Rolex biedt een ruime selectie professionele horloges die speciaal zijn ontworpen voor activiteiten zoals duiken, vliegen, zeilen of autoracen, en die functionaliteit combineren met stijl.</p>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="productskader py-lg-3">
+									<a href="air-king.php"><img class="img-fluid" src="assets/images/allehorloges/collection_professional_watches_air-king_0001_700x550.jpg" alt="Air-King"></a>
 								</div>
-								<div class="form-group">
-									<label for="email">Email</label>
-									<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Vul hier uw emailadres in" required>
-									<small id="emailHelp" class="form-text text-muted"></small>
+							</div>
+							<div class="col-lg-6 m-lg-auto">
+								<div class="pb-5">
+									<h3 class="productsh3">Air-king</h3>
+									<cite>"Een eerbetoon aan de luchtvaart"</cite>
 								</div>
-								<div class="form-group">
-									<label for="message">Bericht</label>
-									<textarea class="form-control" id="message" rows="6" required></textarea>
-								</div>
-								<div class="mx-auto">
-									<button type="submit" class="btn contactbutton text-white">Submit</button></div>
-							</form>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-4">
-					<div class="card bg-light mb-3">
-						<div class="card-header contactbackground text-uppercase"><i class="fa fa-home"></i> Adres</div>
-						<div class="card-body">
-							<p>Ieperse Steenweg 127</p>
-							<p>8630 VEURNE</p>
-							<p>BELGIË</p>
-							<p>Email : email@rolex.com</p>
-							<p>Tel. +33 12 56 11 51 84</p>
+						<div class="row">
+							<div class="col-lg-6 order-lg-1">
+								<div class="productskader py-lg-3">
+									<a href="air-king.php"><img class="img-fluid" src="assets/images/allehorloges/collection_professional_watches_cosmograph_daytona_0001_700x550.jpg" alt="Cosmograph-Daytona"></a>
+								</div>
+							</div>
+							<div class="col-lg-6 m-lg-auto order-lg-0">
+								<div class="pb-5">
+									<h3 class="productsh3">Cosmograph-Daytona</h3>
+									<cite>"Een horloge gemaakt om te racen"</cite>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="productskader py-lg-3">
+									<a href="air-king.php"><img class="img-fluid" src="assets/images/allehorloges/collection_professional_watches_milgauss_0001_700x550.jpg" alt="Milgauss"></a>
+								</div>
+							</div>
+							<div class="col-lg-6 m-lg-auto">
+								<div class="pb-5">
+									<h3 class="productsh3">Milgauss</h3>
+									<cite>"Een eerbetoon aan de wetenschap"</cite>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 order-lg-1">
+								<div class="productskader py-lg-3">
+									<a href="air-king.php"><img class="img-fluid" src="assets/images/allehorloges/collection_professional_watches_sea-dweller_0001_700x550.jpg" alt="Sea-Dweller"></a>
+								</div>
+							</div>
+							<div class="col-lg-6 m-lg-auto order-lg-0">
+								<div class="pb-5">
+									<h3 class="productsh3">Sea-Dweller</h3>
+									<cite>"Een horloge dat de diepte wist te overwinnen"</cite>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="productskader py-lg-3">
+									<a href="air-king.php"><img class="img-fluid" src="assets/images/allehorloges/collection_professional_watches_submariner_0001_700x550.jpg" alt="Submariner"></a>
+								</div>
+							</div>
+							<div class="col-lg-6 m-lg-auto">
+								<div class="pb-5">
+									<h3 class="productsh3">Submariner</h3>
+									<cite>"Een icoon onder de duikhorloges"</cite>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -103,8 +145,8 @@
 						<ul>
 							<li><a href="#">Rolex-horloges</a></li>
 							<li><a href="#">Nieuwe horloges 2019</a></li>
-							<li><a href="products-classic.html"><i class="fas fa-mars footerlogo"></i>Klassieke horloges</a></li>
-							<li><a href="products-professional.html"><i class="fas fa-venus footerlogo"></i>Professionele horloges</a></li>
+							<li><a href="products-classic.php"><i class="fas fa-mars footerlogo"></i>Klassieke horloges</a></li>
+							<li><a href="products-professional.php"><i class="fas fa-venus footerlogo"></i>Professionele horloges</a></li>
 							<li><a href="#">Over Rolex-horloges</a></li>
 						</ul>
 						<h6 class="text-uppercase">Services</h6>
@@ -117,7 +159,7 @@
 					<div class="col-lg-4 footerblok">
 						<h6 class="text-uppercase">De collectie</h6>
 						<ul>
-							<li><a href="air-king.html">Air-King</a></li>
+							<li><a href="air-king.php">Air-King</a></li>
 							<li><a href="#">Cellini</a></li>
 							<li><a href="#">Cosmograph Daytona</a></li>
 							<li><a href="#">Datejust</a></li>
@@ -171,9 +213,9 @@
 						<ul>
 							<li><a href="#">Rolex-horloges</a></li>
 							<li><a href="#">Nieuwe horloges 2018</a></li>
-							<li><a href="products-classic.html"><i class="fas fa-mars footerlogo"></i>Klassieke horloges</a>
+							<li><a href="products-classic.php"><i class="fas fa-mars footerlogo"></i>Klassieke horloges</a>
 							</li>
-							<li><a href="products-professional.html"><i
+							<li><a href="products-professional.php"><i
 									class="fas fa-venus footerlogo"></i>Professionele horloges</a></li>
 							<li><a href="#">Over Rolex-horloges</a></li>
 						</ul>
